@@ -12,7 +12,11 @@ const io = new Server(server, {
   },
 });
 
-app.use(cors());
+app.use(cors({
+  origin: ["https://member-waitlist.vercel.app", "https://armon-empire.vercel.app", "http://localhost:5174", "http://localhost:5173"],
+  methods: ["GET", "POST"],
+  credentials: true,
+}));
 app.use(express.json());
 
 let members = []; // Store active waitlist members
