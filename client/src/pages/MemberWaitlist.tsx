@@ -103,7 +103,7 @@ const MemberWaitlist = () => {
                   </p>
                 </div>
                 {member.paymentStatus === "past_due" && (
-                  <p className="font-bold text-lg text-red-500 uppercase">Past Due Payment</p>
+                  <p className="font-bold text-xs text-red-500 uppercase">Past Due Payment</p>
                 )}
               </div>
             </div>
