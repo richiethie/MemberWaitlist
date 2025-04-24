@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: ["https://member-waitlist.vercel.app/", "https://armon-empire.vercel.app/", "http://localhost:5174", "http://localhost:5173"], // Your frontend URLs
+    origin: ["https://member-waitlist.vercel.app", "https://armon-empire.vercel.app", "http://localhost:5174", "http://localhost:5173"], // Your frontend URLs
     methods: ["GET", "POST"],
   },
 });
