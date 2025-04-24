@@ -82,10 +82,6 @@ const MemberWaitlist = () => {
                   <p className="text-gray-800 font-semibold my-3">{member.drinkOfChoice}</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <p className="text-gray-500 border-b border-gray-500 px-4 pb-1">Haircut</p>
-                  <p className="text-gray-800 font-semibold my-3">Fade</p>
-                </div>
-                <div className="flex flex-col items-center">
                   <p className="text-gray-500 border-b border-gray-500 px-4 pb-1">Duration</p>
                   <p className="text-gray-800 font-semibold my-3">45 min</p>
                 </div>
